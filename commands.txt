@@ -1,0 +1,5 @@
+python principal_RBM_alpha.py --n_characters 12 --n_neurons 200 300
+
+python principal_DBN_alpha.py --n_characters 1 --n_neurons 300 --n_layers 2 3
+
+python principal_DNN_MNIST.py --n_samples 1000 --epochs 2 --neurons_per_layer 200 --n_layers 2 --no-pretraining

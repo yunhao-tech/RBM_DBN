@@ -1,0 +1,28 @@
+2023-02-25 20:37:05|    INFO|principal_DNN_MNIST.py[:214]|DNN config: Batch size=128; 5 hidden layers, each with 200 neurones.
+2023-02-25 20:37:05|    INFO|principal_DNN_MNIST.py[:122]|Loading data matrix from dataset...
+2023-02-25 20:37:07|    INFO|principal_DNN_MNIST.py[:134]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-25 21:24:49|    INFO|principal_DNN_MNIST.py[:137]|Pretraining finished! Consumed time: 2861.72s
+2023-02-25 21:24:49|    INFO|principal_DNN_MNIST.py[:141]|Start fine-tuning DNN...
+2023-02-25 21:25:08|    INFO|principal_DNN_MNIST.py[:144]|Fine-tuning finished! Consumed time: 19.34s
+2023-02-25 21:25:14|    INFO|principal_DNN_MNIST.py[:149]|After fine-tuning: error rate on training set = 10.7% || error rate on test set = 10.5%
+2023-02-25 21:43:42|    INFO|principal_DNN_MNIST.py[:214]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurones.
+2023-02-25 21:43:42|    INFO|principal_DNN_MNIST.py[:122]|Loading data matrix from dataset...
+2023-02-25 21:43:45|    INFO|principal_DNN_MNIST.py[:134]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-25 22:10:54|    INFO|principal_DNN_MNIST.py[:137]|Pretraining finished! Consumed time: 1629.05s
+2023-02-25 22:10:54|    INFO|principal_DNN_MNIST.py[:141]|Start fine-tuning DNN...
+2023-02-25 22:11:11|    INFO|principal_DNN_MNIST.py[:144]|Fine-tuning finished! Consumed time: 16.80s
+2023-02-25 22:11:14|    INFO|principal_DNN_MNIST.py[:149]|After fine-tuning: error rate on training set = 10.4% || error rate on test set = 9.6%
+2023-02-25 22:36:58|    INFO|principal_DNN_MNIST.py[:214]|DNN config: Batch size=128; 2 hidden layers, each with 100 neurones.
+2023-02-25 22:36:58|    INFO|principal_DNN_MNIST.py[:122]|Loading data matrix from dataset...
+2023-02-25 22:37:01|    INFO|principal_DNN_MNIST.py[:134]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-25 22:56:07|    INFO|principal_DNN_MNIST.py[:137]|Pretraining finished! Consumed time: 1145.28s
+2023-02-25 22:56:07|    INFO|principal_DNN_MNIST.py[:141]|Start fine-tuning DNN...
+2023-02-25 22:56:26|    INFO|principal_DNN_MNIST.py[:144]|Fine-tuning finished! Consumed time: 19.10s
+2023-02-25 22:56:27|    INFO|principal_DNN_MNIST.py[:149]|After fine-tuning: error rate on training set = 12.3% || error rate on test set = 11.7%
+2023-02-25 22:59:38|    INFO|principal_DNN_MNIST.py[:214]|DNN config: Batch size=128; 2 hidden layers, each with 300 neurones.
+2023-02-25 22:59:38|    INFO|principal_DNN_MNIST.py[:122]|Loading data matrix from dataset...
+2023-02-25 22:59:41|    INFO|principal_DNN_MNIST.py[:134]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-25 23:31:37|    INFO|principal_DNN_MNIST.py[:137]|Pretraining finished! Consumed time: 1916.45s
+2023-02-25 23:31:37|    INFO|principal_DNN_MNIST.py[:141]|Start fine-tuning DNN...
+2023-02-25 23:31:54|    INFO|principal_DNN_MNIST.py[:144]|Fine-tuning finished! Consumed time: 16.98s
+2023-02-25 23:31:58|    INFO|principal_DNN_MNIST.py[:149]|After fine-tuning: error rate on training set = 9.5% || error rate on test set = 9.1%

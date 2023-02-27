@@ -1,0 +1,225 @@
+2023-02-26 09:12:45|    INFO|principal_DNN_MNIST.py[:214]|DNN config: Batch size=128; 2 hidden layers, each with 700 neurones.
+2023-02-26 09:12:45|    INFO|principal_DNN_MNIST.py[:122]|Loading data matrix from dataset...
+2023-02-26 09:12:48|    INFO|principal_DNN_MNIST.py[:134]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-26 10:19:39|    INFO|principal_DNN_MNIST.py[:137]|Pretraining finished! Consumed time: 4011.40s
+2023-02-26 10:19:39|    INFO|principal_DNN_MNIST.py[:141]|Start fine-tuning DNN...
+2023-02-26 10:20:04|    INFO|principal_DNN_MNIST.py[:144]|Fine-tuning finished! Consumed time: 25.23s
+2023-02-26 10:20:12|    INFO|principal_DNN_MNIST.py[:149]|After fine-tuning: error rate on training set = 9.4% || error rate on test set = 8.9%
+2023-02-26 10:20:45|    INFO|principal_DNN_MNIST.py[:218]|Randomly choose 1000 for training
+2023-02-26 10:20:45|    INFO|principal_DNN_MNIST.py[:223]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurones.
+2023-02-26 10:20:45|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 1000 samples...
+2023-02-26 10:20:45|    INFO|principal_DNN_MNIST.py[:135]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-26 10:21:12|    INFO|principal_DNN_MNIST.py[:138]|Pretraining finished! Consumed time: 27.25s
+2023-02-26 10:21:12|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 10:21:13|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 0.30s
+2023-02-26 10:21:14|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 37.3% || error rate on test set = 38.9%
+2023-02-26 10:21:33|    INFO|principal_DNN_MNIST.py[:218]|Randomly choose 60000 for training
+2023-02-26 10:21:33|    INFO|principal_DNN_MNIST.py[:223]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurones.
+2023-02-26 10:21:33|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 10:21:35|    INFO|principal_DNN_MNIST.py[:131]|Loading pretrained DNN model from models\2_layers_200_samples_60000.pickle
+2023-02-26 10:21:35|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 10:21:52|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 16.47s
+2023-02-26 10:21:54|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 10.2% || error rate on test set = 9.6%
+2023-02-26 10:22:11|    INFO|principal_DNN_MNIST.py[:218]|Randomly choose 3000 for training
+2023-02-26 10:22:11|    INFO|principal_DNN_MNIST.py[:223]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurones.
+2023-02-26 10:22:11|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 3000 samples...
+2023-02-26 10:22:11|    INFO|principal_DNN_MNIST.py[:135]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-26 10:23:41|    INFO|principal_DNN_MNIST.py[:138]|Pretraining finished! Consumed time: 89.45s
+2023-02-26 10:23:41|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 10:23:42|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 0.83s
+2023-02-26 10:23:43|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 22.4% || error rate on test set = 22.0%
+2023-02-26 10:24:38|    INFO|principal_DNN_MNIST.py[:218]|Randomly choose 7000 for training
+2023-02-26 10:24:38|    INFO|principal_DNN_MNIST.py[:223]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurones.
+2023-02-26 10:24:38|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 7000 samples...
+2023-02-26 10:24:39|    INFO|principal_DNN_MNIST.py[:135]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-26 10:28:04|    INFO|principal_DNN_MNIST.py[:138]|Pretraining finished! Consumed time: 205.07s
+2023-02-26 10:28:04|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 10:28:06|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 2.02s
+2023-02-26 10:28:07|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 15.7% || error rate on test set = 15.4%
+2023-02-26 10:36:57|    INFO|principal_DNN_MNIST.py[:218]|Randomly choose 10000 for training
+2023-02-26 10:36:57|    INFO|principal_DNN_MNIST.py[:223]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurones.
+2023-02-26 10:36:57|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 10000 samples...
+2023-02-26 10:36:58|    INFO|principal_DNN_MNIST.py[:135]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-26 10:41:39|    INFO|principal_DNN_MNIST.py[:138]|Pretraining finished! Consumed time: 281.57s
+2023-02-26 10:41:39|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 10:41:42|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 2.79s
+2023-02-26 10:41:44|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 14.0% || error rate on test set = 13.1%
+2023-02-26 11:11:55|    INFO|principal_DNN_MNIST.py[:218]|Randomly choose 30000 for training
+2023-02-26 11:11:55|    INFO|principal_DNN_MNIST.py[:223]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurones.
+2023-02-26 11:11:55|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 30000 samples...
+2023-02-26 11:11:57|    INFO|principal_DNN_MNIST.py[:135]|Start pretraining DNN: epochs=100, lr=0.1, batch size=128
+2023-02-26 11:27:48|    INFO|principal_DNN_MNIST.py[:138]|Pretraining finished! Consumed time: 951.12s
+2023-02-26 11:27:48|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 11:27:59|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 11.23s
+2023-02-26 11:28:01|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 11.2% || error rate on test set = 10.8%
+2023-02-26 18:31:44|    INFO|utils.py[:183]|Training RBM using 12 characters: visible neurones=320, hidden neurones=200, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:31:54|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:31:55|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:31:55|    INFO|utils.py[:183]|Training RBM using 12 characters: visible neurones=320, hidden neurones=300, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:32:08|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:32:09|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:43:50|    INFO|utils.py[:183]|Training RBM using 1 characters: visible neurones=320, hidden neurones=100, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:43:51|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:43:52|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:43:52|    INFO|utils.py[:183]|Training RBM using 1 characters: visible neurones=320, hidden neurones=400, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:43:53|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:43:53|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:43:58|    INFO|utils.py[:183]|Training RBM using 3 characters: visible neurones=320, hidden neurones=100, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:44:00|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:44:01|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:44:01|    INFO|utils.py[:183]|Training RBM using 3 characters: visible neurones=320, hidden neurones=400, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:44:05|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:44:05|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:44:09|    INFO|utils.py[:183]|Training RBM using 5 characters: visible neurones=320, hidden neurones=100, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:44:13|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:44:13|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:44:13|    INFO|utils.py[:183]|Training RBM using 5 characters: visible neurones=320, hidden neurones=400, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:44:19|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:44:20|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:44:25|    INFO|utils.py[:183]|Training RBM using 7 characters: visible neurones=320, hidden neurones=100, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:44:30|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:44:30|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:44:30|    INFO|utils.py[:183]|Training RBM using 7 characters: visible neurones=320, hidden neurones=400, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:44:40|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:44:40|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:44:45|    INFO|utils.py[:183]|Training RBM using 9 characters: visible neurones=320, hidden neurones=100, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:44:51|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:44:51|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:44:51|    INFO|utils.py[:183]|Training RBM using 9 characters: visible neurones=320, hidden neurones=400, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:45:03|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:45:04|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:45:08|    INFO|utils.py[:183]|Training RBM using 1 characters: visible neurones=320, hidden neurones=100, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:45:09|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:45:09|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:45:09|    INFO|utils.py[:183]|Training RBM using 1 characters: visible neurones=320, hidden neurones=200, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:45:10|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:45:11|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:45:11|    INFO|utils.py[:183]|Training RBM using 1 characters: visible neurones=320, hidden neurones=400, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:45:12|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:45:13|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:45:13|    INFO|utils.py[:183]|Training RBM using 1 characters: visible neurones=320, hidden neurones=800, epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:45:16|    INFO|utils.py[:189]|Generated 3 images using the trained RBM, with 200 Gibbs iterations
+2023-02-26 18:45:16|    INFO|utils.py[:202]|Images saved at the folder: outputs/RBM
+2023-02-26 18:45:20|    INFO|utils.py[:210]|Training DBN using 1 characters: neurones in each layer=[320, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:45:22|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:45:23|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:45:27|    INFO|utils.py[:210]|Training DBN using 3 characters: neurones in each layer=[320, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:45:32|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:45:32|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:45:37|    INFO|utils.py[:210]|Training DBN using 5 characters: neurones in each layer=[320, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:45:45|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:45:46|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:45:50|    INFO|utils.py[:210]|Training DBN using 7 characters: neurones in each layer=[320, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:46:02|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:46:02|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:46:07|    INFO|utils.py[:210]|Training DBN using 9 characters: neurones in each layer=[320, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:46:21|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:46:22|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:46:27|    INFO|utils.py[:210]|Training DBN using 1 characters: neurones in each layer=[320, 100, 100], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:46:28|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:46:28|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:46:33|    INFO|utils.py[:210]|Training DBN using 1 characters: neurones in each layer=[320, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:46:34|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:46:35|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:46:40|    INFO|utils.py[:210]|Training DBN using 1 characters: neurones in each layer=[320, 400, 400], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:46:43|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:46:43|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:46:47|    INFO|utils.py[:210]|Training DBN using 1 characters: neurones in each layer=[320, 800, 800], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:46:57|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:46:57|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:47:01|    INFO|utils.py[:210]|Training DBN using 1 characters: neurones in each layer=[320, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:47:03|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:47:04|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:47:04|    INFO|utils.py[:210]|Training DBN using 1 characters: neurones in each layer=[320, 200, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:47:06|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:47:06|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:47:06|    INFO|utils.py[:210]|Training DBN using 1 characters: neurones in each layer=[320, 200, 200, 200, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:47:10|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:47:10|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+2023-02-26 18:47:10|    INFO|utils.py[:210]|Training DBN using 1 characters: neurones in each layer=[320, 200, 200, 200, 200, 200, 200, 200], epochs=200, lr=1e-1, batch size=16
+2023-02-26 18:47:15|    INFO|utils.py[:216]|Generated 3 images using the trained DBN, with 200 Gibbs iterations
+2023-02-26 18:47:15|    INFO|utils.py[:229]|Images saved at the folder: outputs/DBN
+
+2023-02-26 20:22:10|    INFO|principal_DNN_MNIST.py[:221]|Making use of all training data
+2023-02-26 20:22:10|    INFO|principal_DNN_MNIST.py[:223]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurons.
+2023-02-26 20:22:10|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 20:22:13|    INFO|principal_DNN_MNIST.py[:131]|Loading pretrained DNN model from models\2_layers_200_samples_60000.pickle
+2023-02-26 20:22:13|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 20:27:01|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 20:27:01|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurons.
+2023-02-26 20:27:01|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 20:27:04|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 20:36:45|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 20:36:45|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurons.
+2023-02-26 20:36:45|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 20:36:48|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 21:12:22|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 21:12:22|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurons.
+2023-02-26 21:12:22|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 21:12:24|    INFO|principal_DNN_MNIST.py[:131]|Loading pretrained DNN model from models/2_layers_200_samples_60000.pickle
+2023-02-26 21:12:24|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 21:28:06|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 941.74s
+2023-02-26 21:28:08|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 6.2% || error rate on test set = 7.3%
+2023-02-26 21:28:10|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 21:28:10|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 2 hidden layers, each with 200 neurons.
+2023-02-26 21:28:10|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 21:28:12|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 21:43:48|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 935.74s
+2023-02-26 21:43:50|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 28.1% || error rate on test set = 28.5%
+2023-02-26 21:43:52|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 21:43:52|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 3 hidden layers, each with 200 neurons.
+2023-02-26 21:43:52|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 21:43:54|    INFO|principal_DNN_MNIST.py[:131]|Loading pretrained DNN model from models/3_layers_200_samples_60000.pickle
+2023-02-26 21:43:54|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 21:59:35|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 940.53s
+2023-02-26 21:59:38|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 7.7% || error rate on test set = 8.1%
+2023-02-26 21:59:40|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 21:59:40|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 3 hidden layers, each with 200 neurons.
+2023-02-26 21:59:40|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 21:59:42|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 22:15:55|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 972.50s
+2023-02-26 22:15:58|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 44.2% || error rate on test set = 44.4%
+2023-02-26 22:16:00|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 22:16:00|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 5 hidden layers, each with 200 neurons.
+2023-02-26 22:16:00|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 22:16:02|    INFO|principal_DNN_MNIST.py[:131]|Loading pretrained DNN model from models/5_layers_200_samples_60000.pickle
+2023-02-26 22:16:02|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 22:33:08|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 1026.14s
+2023-02-26 22:33:14|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 11.2% || error rate on test set = 11.3%
+2023-02-26 22:33:16|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 22:33:16|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 5 hidden layers, each with 200 neurons.
+2023-02-26 22:33:16|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 22:33:18|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 22:50:45|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 1046.30s
+2023-02-26 22:50:51|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 76.5% || error rate on test set = 76.3%
+2023-02-26 22:50:52|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 22:50:52|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 2 hidden layers, each with 100 neurons.
+2023-02-26 22:50:52|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 22:50:55|    INFO|principal_DNN_MNIST.py[:131]|Loading pretrained DNN model from models/2_layers_100_samples_60000.pickle
+2023-02-26 22:50:55|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 23:06:19|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 924.08s
+2023-02-26 23:06:20|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 8.3% || error rate on test set = 9.3%
+2023-02-26 23:06:22|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 23:06:22|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 2 hidden layers, each with 100 neurons.
+2023-02-26 23:06:22|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 23:06:24|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 23:22:16|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 952.10s
+2023-02-26 23:22:18|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 29.9% || error rate on test set = 29.8%
+2023-02-26 23:22:19|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 23:22:19|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 2 hidden layers, each with 300 neurons.
+2023-02-26 23:22:19|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 23:22:21|    INFO|principal_DNN_MNIST.py[:131]|Loading pretrained DNN model from models/2_layers_300_samples_60000.pickle
+2023-02-26 23:22:21|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 23:38:36|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 974.77s
+2023-02-26 23:38:40|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 5.3% || error rate on test set = 6.6%
+2023-02-26 23:38:41|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 23:38:41|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 2 hidden layers, each with 300 neurons.
+2023-02-26 23:38:41|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 23:38:44|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
+2023-02-26 23:54:38|    INFO|principal_DNN_MNIST.py[:145]|Fine-tuning finished! Consumed time: 954.32s
+2023-02-26 23:54:42|    INFO|principal_DNN_MNIST.py[:150]|After fine-tuning: error rate on training set = 27.3% || error rate on test set = 28.3%
+2023-02-26 23:54:43|    INFO|principal_DNN_MNIST.py[:227]|Making use of all training data
+2023-02-26 23:54:43|    INFO|principal_DNN_MNIST.py[:229]|DNN config: Batch size=128; 2 hidden layers, each with 700 neurons.
+2023-02-26 23:54:43|    INFO|principal_DNN_MNIST.py[:123]|Loading data matrix from dataset with 60000 samples...
+2023-02-26 23:54:46|    INFO|principal_DNN_MNIST.py[:131]|Loading pretrained DNN model from models/2_layers_700_samples_60000.pickle
+2023-02-26 23:54:46|    INFO|principal_DNN_MNIST.py[:142]|Start fine-tuning DNN...
